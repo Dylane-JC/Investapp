@@ -1,3 +1,42 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+
+}
+
+* {
+    font-family: "Barlow";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Barlow";
+}
+
+span {
+    font-family: "Barlow";
+}
+
+code {
+    font-family: "Barlow";
+}
+
+a {
+    font-family: "Barlow";
+}
+
+
+
+
+
+
+
 .message-content{
     background-color: aliceblue;
     overflow: ;
@@ -27,4 +66,12 @@
 
 .s-msg, .r-msg{
     margin-top:;
+}
+
+.privilege {
+    background-color: #10d75229;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 6px;
+    color: #088728;
 }
