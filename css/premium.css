@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+
+}
+
+* {
+    font-family: "Barlow";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Barlow";
+}
+
+span {
+    font-family: "Barlow";
+}
+
+code {
+    font-family: "Barlow";
+}
+
+a {
+    font-family: "Barlow";
+}
+
+.standard {
+    background-color: #d79b1029;
+    border-radius: 3px;
+    display: inline-block;
+    font-family: "Baloo";
+    font-size: 0.875em;
+    font-weight: bold;
+    padding: 1px 6px;
+    vertical-align: baseline;
+    color: #D79A10;
+}
+
+.privilege {
+    background-color: #10d75229;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 6px;
+    color: #088728;
+}
+
+.notification,
+.events,
+.profile {
+    color: #2c2b2bc8;
+}
+
+.profile:hover {
+    border: 0px solid #d79b1037;
+    color: #D79A10;
+
+
+}
+
+.notification:hover {
+    border: 0px solid #d79b1037;
+    color: #D79A10;
+}
+
+.events:hover {
+    border: 0px solid #d79b1037;
+    color: #D79A10;
+}
+
+#new-meeting {
+    border: 1px solid #D79A10;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    color: #D79A10;
+    font-weight: 400;
+}
+
+#new-meeting:hover {
+    background-color: #d79b1029;
+    border: 1px dashed #D79A10;
+    font-weight: bolder;
+}
+
+.layout1 {
+    background-color: rgba(128, 227, 254, 0.337);
+    padding: 12px;
+    border-radius: 15px;
+    border: none solid rgba(128, 227, 254, 0.337);
+    margin: auto;
+    
+}
+
+.layout2 {
+    background-color: rgba(131, 131, 131, 0.337);
+    padding: 12px;
+    border-radius: 15px;
+    border: none solid rgba(0, 0, 0, 0.337);
+    margin: auto;
+
+}
+.layout3 {
+    background-color: rgba(254, 178, 128, 0.337);
+    padding: 12px;
+    border-radius: 15px;
+    border: none solid rgba(254, 178, 128, 0.337);
+    margin: auto;
+
+}
+
+.layout ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+.meet.content {
+    width: 100%;
+}
+
+.meet.title {
+    margin-left: 12px;
+    font-weight: 900;
+}
+
+.meet.btn button {
+    border: none solid rgba(160, 152, 152, .7);
+    background-color: white;
+    font-family: "Barlow";
+    font-weight: 900;
+    border-radius: 50px;
+}
+
+.meet.btn button:hover {
+    background-color: inherit;
+    color: inherit;
+    font-family: "Barlow";
+    border: 2px solid #5656558e;
+}
