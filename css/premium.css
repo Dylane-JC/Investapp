@@ -92,8 +92,8 @@ a {
     padding: 12px;
     border-radius: 15px;
     border: none solid rgba(128, 227, 254, 0.337);
-    margin: auto;
-    
+    width: auto;
+    height: 450px;
 }
 
 .layout2 {
@@ -101,31 +101,26 @@ a {
     padding: 12px;
     border-radius: 15px;
     border: none solid rgba(0, 0, 0, 0.337);
-    margin: auto;
+    width: auto;
+    height: 450px;
 
 }
+
 .layout3 {
     background-color: rgba(254, 178, 128, 0.337);
     padding: 12px;
     border-radius: 15px;
     border: none solid rgba(254, 178, 128, 0.337);
-    margin: auto;
+    width: auto;
+    height: 450px;
 
 }
 
 .layout ul {
     list-style-type: none;
-    width: 100%;
+    width: 100%;    
 }
 
-.meet.content {
-    width: 100%;
-}
-
-.meet.title {
-    margin-left: 12px;
-    font-weight: 900;
-}
 
 .meet.btn button {
     border: none solid rgba(160, 152, 152, .7);
@@ -133,6 +128,8 @@ a {
     font-family: "Barlow";
     font-weight: 900;
     border-radius: 50px;
+    display: flex;
+    
 }
 
 .meet.btn button:hover {
